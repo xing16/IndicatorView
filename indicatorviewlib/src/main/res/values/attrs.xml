@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IndicatorView">
+
+        <attr name="style" format="enum">
+            <enum name="dot" value="0" />
+            <enum name="number" value="1" />
+            <enum name="letter" value="2" />
+        </attr>
+
+        <!--共同属性-->
+        <attr name="indicatorGap" format="dimension" />      <!-- 相邻指示器之间的间 -->
+        <attr name="indicatorRadius" format="dimension" />    <!-- 指示器半径 -->
+
+        <!--默认圆点属性-->
+        <attr name="dotSelectedColor" format="color" />
+        <attr name="dotUnselectColor" format="color" />
+
+        <!-- 字母，数字属性 -->
+        <attr name="strokeWidth" format="dimension" />  <!--边框线宽-->
+        <attr name="strokeColor" format="color" />     <!--边框颜色-->
+        <attr name="selectedFillColor" format="color" />   <!--选中填充颜色-->
+        <attr name="textColor" format="color" />   <!-- 文本颜色 -->
+        <attr name="textSize" format="dimension" />  <!-- 文本大小-->
+
+
+    </declare-styleable>
+
+</resources>
